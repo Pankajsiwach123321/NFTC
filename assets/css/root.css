@@ -91,4 +91,7 @@
             --fw-md: 700;
     
         }
+        .slider{
+            display: none !important;
+        }
 }
