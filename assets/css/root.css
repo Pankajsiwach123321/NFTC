@@ -1,0 +1,94 @@
+:root {
+    --fs-sm: 16px;
+    --fs-md: 20px;
+    /* color */
+
+    --tx-color-primary: #666666;
+    --tx-color-secandary: #000000;
+    /* font weight */
+    --font-family: 'Poppins', sans-serif;
+    /* font-weight */
+    --fw-sm: 400;
+    --fw-md: 700;
+
+}
+
+/* fontsize */
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+/* fontcolor */
+.tx-color-primary {
+    color: var(--tx-color-primary);
+}
+
+.tx-color-secandary {
+    color: var(--tx-color-secandary);
+}
+
+/* fontfamily */
+.font-family {
+    font-family: var(--font-family);
+}
+
+/*font-weight*/
+.font-weight-400 {
+    font-weight: var(--fw-sm);
+}
+
+.font-weight-700 {
+    font-weight: var(--fw-md);
+}
+@media (min-width:576px) {
+    :root {
+            --fs-sm: 16px;
+            --fs-md: 20px;
+            /* color */
+    
+            --tx-color-primary: #666666;
+            --tx-color-secandary: #000000;
+            /* font weight */
+            --font-family: 'Poppins', sans-serif;
+            /* font-weight */
+            --fw-sm: 400;
+            --fw-md: 700;
+    
+        }
+}
+@media (min-width:776px) {
+    :root {
+            --fs-sm: 16px;
+            --fs-md: 20px;
+            /* color */
+    
+            --tx-color-primary: #666666;
+            --tx-color-secandary: #000000;
+            /* font weight */
+            --font-family: 'Poppins', sans-serif;
+            /* font-weight */
+            --fw-sm: 400;
+            --fw-md: 700;
+    
+        }
+}
+@media (min-width:992px) {
+    :root {
+            --fs-sm: 18px;
+            --fs-md: 36px;
+            /* color */
+    
+            --tx-color-primary: #666666;
+            --tx-color-secandary: #000000;
+            /* font weight */
+            --font-family: 'Poppins', sans-serif;
+            /* font-weight */
+            --fw-sm: 400;
+            --fw-md: 700;
+    
+        }
+}
