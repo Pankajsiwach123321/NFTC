@@ -85,10 +85,7 @@ p {
     font-weight: var(--fw-sm);
 }
 
-.here:hover {
-    color: var(--tx-color-primary);
-    font-size: 20px;
-}
+
 
 .add {
     display: flex;
@@ -227,10 +224,14 @@ input:focus {
     }
 
     .card3 {
-        min-width: 119px;
-        min-height: 129px;
+        max-width: 119px;
+        max-height: 129px;
         border: 1px solid rgba(0, 0, 0, 0.20);
         background: #FFF;
+    }
+
+    .m {
+        margin-right: 12px !important;
     }
 
     .flex1 {
@@ -367,6 +368,11 @@ input:focus {
     }
 
     .post:hover {
+        font-size: 20px;
+    }
+
+    .here:hover {
+        color: var(--tx-color-primary);
         font-size: 20px;
     }
 
