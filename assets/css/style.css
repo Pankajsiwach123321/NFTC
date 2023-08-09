@@ -190,17 +190,17 @@ input:focus {
     .smallscreen {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         width: 50%;
-        height: 10%;
+        height: 45%;
         background-color: #ed8585;
         position: fixed;
         top: 0;
         left: -100%;
         opacity: 0;
         pointer-events: none;
-        transition: all 500ms linear;
+        transition: all 700ms linear;
         z-index: 1;
     }
 
