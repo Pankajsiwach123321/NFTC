@@ -150,6 +150,11 @@ input:focus {
     padding-left: 21px;
 }
 
+@media (max-width:992px) {
+.w-100m {
+        width: 100%;
+    }
+}
 @media (max-width:1450px) {
     label[for="iconbox"] {
         width: 20px;
@@ -210,9 +215,7 @@ input:focus {
         pointer-events: all;
     }
 
-    .w-100m {
-        width: 100%;
-    }
+    
 
     .gap {
         gap: 2px !important;
