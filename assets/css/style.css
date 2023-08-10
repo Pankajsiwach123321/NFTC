@@ -85,8 +85,10 @@ p {
     font-weight: var(--fw-sm);
 }
 
-
-
+.radio {
+    width: 28px;
+    height: 28px;
+}
 .add {
     display: flex;
     max-width: 891px;
@@ -151,17 +153,18 @@ input:focus {
 }
 
 @media (max-width:992px) {
-.w-100m {
+    .w-100m {
         width: 100%;
     }
 }
+
 @media (max-width:1450px) {
     label[for="iconbox"] {
         width: 20px;
         height: 24px;
         cursor: pointer;
         display: flex;
-        position: fixed ;
+        position: fixed;
         top: 2%;
         left: 4%;
         justify-content: space-between;
@@ -215,7 +218,7 @@ input:focus {
         pointer-events: all;
     }
 
-    
+
 
     .gap {
         gap: 2px !important;
