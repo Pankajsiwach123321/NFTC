@@ -321,7 +321,7 @@ input:focus {
 
     .add {
         display: flex;
-        max-width: 891px;
+        width: 100%;
         padding: 8px 0px;
         justify-content: space-between;
         align-items: flex-start;

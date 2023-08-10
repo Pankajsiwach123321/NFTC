@@ -78,7 +78,7 @@
 
 @media (min-width:992px) {
     :root {
-        --fs-sm: 18px;
+        --fs-sm: 12px;
         --fs-md: 36px;
         /* color */
 
@@ -95,4 +95,20 @@
     .slider {
         display: none !important;
     }
+}
+@media (min-width:1450px) {
+    :root {
+            --fs-sm: 18px;
+            --fs-md: 36px;
+            /* color */
+    
+            --tx-color-primary: #666666;
+            --tx-color-secandary: #000000;
+            /* font weight */
+            --font-family: 'Poppins', sans-serif;
+            /* font-weight */
+            --fw-sm: 400;
+            --fw-md: 700;
+    
+        }
 }
