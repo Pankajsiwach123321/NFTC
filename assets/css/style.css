@@ -108,6 +108,42 @@ input:focus {
     background: #000000;
     color: #fff !important;
 }
+  /* toggle in label designing / */
+  .toggle {
+      position: relative;
+      display: inline-block;
+      width: 45px;
+      height: 30px;
+      /* background-color: red; */
+      border-radius: 30px;
+      border: 2px solid gray;
+  }
+
+  /* / After slide changes / */
+  .toggle:after {
+      content: '';
+      position: absolute;
+      width: 23px;
+      height: 23px;
+      border-radius: 50%;
+      background-color: black;
+      top: 1px;
+      left: 1px;
+      transition: all 0.5s;
+  }
+
+  .checkbox:checked+.toggle::after {
+      left: 18px;
+      background-color: #789499;
+      
+  }
+   .checkbox:checked+.toggle {
+       background-color: black;
+   }
+
+  .checkbox {
+      display: none;
+  }
 
 .flex-row-reverse {
     flex-direction: row-reverse !important;
