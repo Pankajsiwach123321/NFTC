@@ -141,10 +141,6 @@ input:focus {
        background-color: black;
    }
 
-  .checkbox {
-      display: none;
-  }
-
 .flex-row-reverse {
     flex-direction: row-reverse !important;
 }
